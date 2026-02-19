@@ -1,1 +1,27 @@
 /* Add CSS Styling */
+.elemodd {
+    background-color: #ff746c;
+    font-family: Verdana, "Dejavu Sans", sans-serif;
+}
+
+#elemtwo {
+    color: rgb(00, 00, 225);
+    font-size: 36px;
+}
+
+.elemthree {
+    font-size: 24px;
+}
+
+/* 
+    To reduce code duplication I could've renamed 
+    .elemthree to something like "adjust-font-size" 
+    and reused it rather than changing font-size in
+    #elemfour
+*/
+
+#elemfour {
+    background-color: hsl(120, 41%, 91%);
+    font-size: 24px;
+    font-weight: bold;
+}
